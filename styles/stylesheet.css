@@ -16,10 +16,11 @@ h1 {
 nav {
   font-family: Verdana, sans-serif;
   font-size: 16px;
+  color: #ba5e01;
 }
 
-li {
-  font-color: #ba5e01;
+a {
+  color: #ba5e01;
 }
 
 .hdr {
@@ -35,7 +36,7 @@ p {
   font-size: 11px;
 }
 
-a {
+.projectimg {
   color: #b76616;
 }
 
@@ -54,7 +55,25 @@ section {
   padding: 5px;
 }
 
-footer {
-  color: #9b9793;
+.oskills1 {
+  color: #68635e;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+}
+
+.oskills {
+  color: #68635e;
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+}
+
+.oskillsp {
+  color: #7c7874;
+  font-family: Verdana, sans-serif;
   font-size: 10px;
+}
+
+.ftrp {
+  color: #9b9793;
+  font-size: 9px;
 }
