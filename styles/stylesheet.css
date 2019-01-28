@@ -1,3 +1,5 @@
+/* MAIN HEADERS STYLES */
+
 header {
   color: #33281d;
   text-transform: uppercase;
@@ -13,14 +15,21 @@ h1 {
   color: #68635e;
 }
 
+/* NAVIGATION STYLES */
+
 nav {
   font-family: Verdana, sans-serif;
   font-size: 16px;
   color: #ba5e01;
 }
 
-a {
-  color: #ba5e01;
+/* PROJECT SECTION STYLES */
+
+section {
+  border: 1px solid #63605d;
+  text-align: justify;
+  width: 800px;
+  padding: 5px;
 }
 
 .hdr {
@@ -36,24 +45,15 @@ p {
   font-size: 11px;
 }
 
-.projectimg {
+.projectlnk {
   color: #b76616;
-}
-
-a:hover {
-  color: #e0a66d;
 }
 
 img {
   opacity: 0.8;
 }
 
-section {
-  border: 1px solid #63605d;
-  text-align: justify;
-  width: 800px;
-  padding: 5px;
-}
+/* OTHER SKILLS STYLES */
 
 .oskills1 {
   color: #68635e;
@@ -72,6 +72,18 @@ section {
   font-family: Verdana, sans-serif;
   font-size: 10px;
 }
+
+/* LINKS STYLES */
+
+a {
+  color: #ba5e01;
+}
+
+a:hover {
+  color: #e0a66d;
+}
+
+/* FOOTER STYLES */
 
 .ftrp {
   color: #9b9793;
