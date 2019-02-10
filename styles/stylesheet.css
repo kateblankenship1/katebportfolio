@@ -6,20 +6,22 @@ header {
 }
 
 h1 {
-  font-family: Georgia, serif;
+  font-family: "Open Sans Condensed", sans-serif;
   color: #4f4b47;
+  font-size: 3rem;
 }
 
 .portfolio {
-  font-family: Georgia, serif;
+  font-family: "Open Sans Condensed", sans-serif;
   color: #68635e;
+  font-size: 2rem;
 }
 
 /* NAVIGATION STYLES */
 
 nav {
-  font-family: Verdana, sans-serif;
-  font-size: 16px;
+  font-family: "Indie Flower", sans-serif;
+  font-size: 1.6rem;
   color: #ba5e01;
 }
 
@@ -34,9 +36,8 @@ nav {
 
 .hdr {
   color: #59524b;
-  font-family: Verdana, sans-serif;
-  font-size: 16px;
-  text-transform: uppercase;
+  font-family: "Indie Flower", sans-serif;
+  font-size: 1.6rem;
 }
 
 p {
@@ -58,14 +59,14 @@ img {
 
 .oskills1 {
   color: #68635e;
-  font-family: Verdana, sans-serif;
-  font-size: 14px;
+  font-family: "Indie Flower", sans-serif;
+  font-size: 1.6rem;
 }
 
 .oskills {
   color: #68635e;
-  font-family: Verdana, sans-serif;
-  font-size: 12px;
+  font-family: "Indie Flower", sans-serif;
+  font-size: 1.3rem;
 }
 
 .oskillsp {
@@ -81,7 +82,6 @@ img {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-  height: 5rem;
   width: 100%;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -89,8 +89,9 @@ img {
 
 .flex-container div {
   background-color: #cec1a9;
-  color: #825a12;
+  color: #16140f;
   padding: 1rem;
+  font-family: "Indie Flower", sans-serif;
 }
 
 
@@ -102,6 +103,12 @@ a {
 
 a:hover {
   color: #e0a66d;
+}
+
+/* ABOUT ME PAGE STYLES */
+
+.abtme {
+  padding: 2rem;
 }
 
 /* FOOTER STYLES */
