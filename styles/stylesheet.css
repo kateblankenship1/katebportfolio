@@ -25,7 +25,7 @@ nav {
 
 /* PROJECT SECTION STYLES */
 
-section {
+.bordero {
   border: 1px solid #63605d;
   text-align: justify;
   width: 800px;
@@ -53,6 +53,7 @@ img {
   opacity: 0.8;
 }
 
+
 /* OTHER SKILLS STYLES */
 
 .oskills1 {
@@ -73,6 +74,26 @@ img {
   font-size: 10px;
 }
 
+/* FLEX STYLES */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  height: 5rem;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.flex-container div {
+  background-color: #cec1a9;
+  color: #825a12;
+  padding: 1rem;
+}
+
+
 /* LINKS STYLES */
 
 a {
@@ -85,7 +106,21 @@ a:hover {
 
 /* FOOTER STYLES */
 
-.ftrp {
-  color: #9b9793;
+footer {
+  background-color: #c4c2c0;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 4rem;
+  color: #93918f;
   font-size: 9px;
+  clear: right;
+}
+
+.footertext {
+  text-align: center;
+  width: 40%;
+  padding-left: 16rem;
 }
