@@ -67,7 +67,7 @@ img {
   color: #68635e;
   font-family: "Indie Flower", sans-serif;
   font-size: 1.3rem;
-  height: 4rem;
+  height: 4.5rem;
 }
 
 .oskillsp {
@@ -97,13 +97,13 @@ img {
 
 /* TRANSITIONS */
 .oskills {
-transition-property: font-size;
+transition-property: font-style;
 transition-duration: 0s;
 transition-delay: 0s;
 }
 
 .oskills:hover {
-font-size: 1.9rem;
+font-style: italic;
 }
 
 li:hover {
@@ -113,6 +113,16 @@ li:hover {
   transition-delay: 0s;
 }
 
+.flex-container div {
+  transition-property: background-color;
+  transition-duration: 2s;
+  transition-delay: 0s;
+}
+
+.flex-container div:hover {
+  background-color: #c18f51;
+  color: #f2eae1;
+}
 
 /* LINKS STYLES */
 
