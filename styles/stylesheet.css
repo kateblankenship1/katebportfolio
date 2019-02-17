@@ -67,6 +67,7 @@ img {
   color: #68635e;
   font-family: "Indie Flower", sans-serif;
   font-size: 1.3rem;
+  height: 4rem;
 }
 
 .oskillsp {
@@ -92,6 +93,24 @@ img {
   color: #16140f;
   padding: 1rem;
   font-family: "Indie Flower", sans-serif;
+}
+
+/* TRANSITIONS */
+.oskills {
+transition-property: font-size;
+transition-duration: 0s;
+transition-delay: 0s;
+}
+
+.oskills:hover {
+font-size: 1.9rem;
+}
+
+li:hover {
+  font-size: 36px;
+  transition-property: font-size;
+  transition-duration: 0.3s;
+  transition-delay: 0s;
 }
 
 
