@@ -1,0 +1,156 @@
+/* KATES DISNEY
+
+Author: Katelyn Schneewind
+Date: 3/11/18
+
+*/
+
+
+/* Body Styles */
+
+body {
+	width: 80%;
+    min-width: 1000px;
+    max-width: 900px;
+	font-family: Sylfaen, "Times New Roman", serif;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgb(249, 246, 242);
+	color: rgb(135, 132, 128);
+}
+
+
+
+	
+/* Navigation Styles */
+
+ul {
+    list-style-type: none;
+	overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(173, 168, 152);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+nav#siteNav a:hover {
+	color: rgb(173, 168, 152);
+	font-size: 2em;
+	letter-spacing: 0.2em;
+	text-shadow: rgba(0, 0, 0, 0.5) 15px -3px 8px;
+}
+
+
+
+
+
+/* Image Styles */
+
+img {
+    opacity: 0.5;
+	display: block;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+/* Column Styles */
+
+article {
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+}
+
+/* Form Styles */
+
+form {
+	display: block;
+	width: 300px;
+}
+
+/* Table Styles */
+
+table.tlktable {
+	background: rgb(209, 179, 142);
+	color: rgb(89, 69, 43);
+	border: 5px;
+	border-collapse: collapse;
+	font-size: 0.8em;
+	width: 100%;
+}
+
+table.tlktable th, table.tlktable td {
+	border: 0.5px solid rgb(130, 103, 68);
+}
+
+table.tjbtable {
+	background: rgb(207, 224, 184);
+	color: rgb(75, 84, 63);
+	border: 5px;
+	border-collapse: collapse;
+	font-size: 0.8em;
+	width: 100%;
+}
+
+table.tjbtable th, table.tjbtable td {
+	border: 0.5px solid rgb(129, 142, 111);
+}
+
+table.tsitstable {
+	background: rgb(199, 221, 215);
+	color: rgb(52, 68, 64);
+	border: 5px;
+	border-collapse: collapse;
+	font-size: 0.8em;
+	width: 100%;
+}
+
+table.tsitstable th, table.tsitstable td {
+	border: 0.5px solid rgb(109, 127, 122);
+}
+
+/* Figure Styles */
+
+figure { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+figcaption {
+	font-size: 0.8em;
+}
+
+/* Pseudo Element Styles */
+
+p::first-letter {
+    color: rgb(188, 127, 3);
+    font-size: xx-large;
+}
+
+:active {
+	color: rgb(188, 127, 3);
+}
+
+
+/* Media Query tyles */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
